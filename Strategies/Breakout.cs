@@ -1,4 +1,4 @@
-﻿// Copyright QUANTOWER LLC. © 2017-2021. All rights reserved.
+﻿
 
 using System;
 using System.Collections.Generic;
