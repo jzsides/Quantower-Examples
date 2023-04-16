@@ -15,4 +15,6 @@ ChartRectButtons.cs - Draws rectangles on charts that act like buttons.  Clickin
 
 ## Strategies
 Breakout.cs - Rangebar breakout trader.  Included to show a method to process range bars in a strategy. 
-Not tested.  Future needs - exit/reverse on opposite breakout.  Add metrics to track PNL.
+Opens a position when a bar closes above or below the box.  A bar close is detected using the HistoricalData.NewHistoryItem event.
+This signals the start of a new bar.  The code checks the close of the previous bar during the NewHistoryItem event.
+Future needs - more testing. exit/reverse on opposite breakout.  Add metrics to track PNL.
