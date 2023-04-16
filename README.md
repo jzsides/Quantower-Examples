@@ -12,3 +12,7 @@ The cs files are from three different projects.  I put the dll for the static cl
 
 ## Indicators
 ChartRectButtons.cs - Draws rectangles on charts that act like buttons.  Clicking on the rectangle flips the color.
+
+## Strategies
+Breakout.cs - Rangebar breakout trader.  Included to show a method to process range bars in a strategy. 
+Not tested.  Future needs - exit/reverse on opposite breakout.  Add metrics to track PNL.
